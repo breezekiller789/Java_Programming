@@ -1,0 +1,13 @@
+1 . 建立三個class Building, Car, Bicycle(這三個class都要有自己獨特的attribute
+
+    跟behavior，不能跟其他人有交集)
+
+2 . 要有一個interface叫做CarbonFootprint，當中有一個method叫getCarbonFootprint
+
+    ，回傳一個合理的碳排放量，至於排放量的計算方法，可以上網找一下。
+
+3 . main function中要用ArrayList把這些class擺進去，然後去執行這每一個class，而
+
+    且一定要去呼叫getCarbonFootprint，然後當呼叫每一個class的時候，要印出一些相
+
+    關的訊息，例如現在是什麼class，

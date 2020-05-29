@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GUI	GUI.java	/^    public GUI() {$/;"	m	class:GUI
+GUI	GUI.java	/^public class GUI extends JFrame implements KeyListener, ItemListener {$/;"	c
+HW3	HW3.java	/^public class HW3 {$/;"	c
+accuracy	GUI.java	/^    private double accuracy;$/;"	f	class:GUI	file:
+accuracyLabel	GUI.java	/^    private JLabel wrongLabel, errorLabel, accuracyLabel;$/;"	f	class:GUI	file:
+addButtons	GUI.java	/^    public void addButtons() {$/;"	m	class:GUI
+addSpacebar	GUI.java	/^    public void addSpacebar() {$/;"	m	class:GUI
+buttongroup	GUI.java	/^    private ButtonGroup buttongroup;$/;"	f	class:GUI	file:
+buttons	GUI.java	/^    private java.util.List<JButton> buttons;$/;"	f	class:GUI	file:
+changePrompt	GUI.java	/^    public void changePrompt(int n) {$/;"	m	class:GUI
+chapter	GUI.java	/^    private String qwerty, chapter, typedText;$/;"	f	class:GUI	file:
+chapter1	GUI.java	/^    private JRadioButton chapter1, chapter2, chapter3, chapter4, chapter5;$/;"	f	class:GUI	file:
+chapter2	GUI.java	/^    private JRadioButton chapter1, chapter2, chapter3, chapter4, chapter5;$/;"	f	class:GUI	file:
+chapter3	GUI.java	/^    private JRadioButton chapter1, chapter2, chapter3, chapter4, chapter5;$/;"	f	class:GUI	file:
+chapter4	GUI.java	/^    private JRadioButton chapter1, chapter2, chapter3, chapter4, chapter5;$/;"	f	class:GUI	file:
+chapter5	GUI.java	/^    private JRadioButton chapter1, chapter2, chapter3, chapter4, chapter5;$/;"	f	class:GUI	file:
+chapterBox	GUI.java	/^    private JTextArea chapterBox, typeBox;$/;"	f	class:GUI	file:
+chapters	GUI.java	/^    private String chapters[];$/;"	f	class:GUI	file:
+checkBox	GUI.java	/^    private JCheckBox checkBox;$/;"	f	class:GUI	file:
+currentChar	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
+displayFinalScreen	GUI.java	/^    public void displayFinalScreen() {$/;"	m	class:GUI
+errorCnt	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
+errorLabel	GUI.java	/^    private JLabel wrongLabel, errorLabel, accuracyLabel;$/;"	f	class:GUI	file:
+itemStateChanged	GUI.java	/^    public void itemStateChanged(ItemEvent e) {$/;"	m	class:GUI
+keyPressed	GUI.java	/^    public void keyPressed (KeyEvent e) {$/;"	m	class:GUI
+keyReleased	GUI.java	/^    public void keyReleased (KeyEvent e) {$/;"	m	class:GUI
+keyTyped	GUI.java	/^    public void keyTyped(KeyEvent e) {$/;"	m	class:GUI
+main	HW3.java	/^    public static void main (String[] args) {$/;"	m	class:HW3
+numKeysTyped	GUI.java	/^                numKeysTyped;$/;"	f	class:GUI	file:
+promptNum	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
+qwerty	GUI.java	/^    private String qwerty, chapter, typedText;$/;"	f	class:GUI	file:
+resetTypeBox	GUI.java	/^    public void resetTypeBox() {$/;"	m	class:GUI
+rowBreak1	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
+rowBreak2	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
+selectRadioButton	GUI.java	/^    public void selectRadioButton(int num) {$/;"	m	class:GUI
+serialVersionUID	GUI.java	/^    private static final long serialVersionUID = 11111111;$/;"	f	class:GUI	file:
+setPosition	GUI.java	/^    public void setPosition(int i) {$/;"	m	class:GUI
+typeBox	GUI.java	/^    private JTextArea chapterBox, typeBox;$/;"	f	class:GUI	file:
+typedText	GUI.java	/^    private String qwerty, chapter, typedText;$/;"	f	class:GUI	file:
+wrongLabel	GUI.java	/^    private JLabel wrongLabel, errorLabel, accuracyLabel;$/;"	f	class:GUI	file:

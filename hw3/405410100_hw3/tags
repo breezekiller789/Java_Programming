@@ -24,9 +24,9 @@ chapterBox	GUI.java	/^    private JTextArea chapterBox, typeBox;$/;"	f	class:GUI
 chapters	GUI.java	/^    private String chapters[];$/;"	f	class:GUI	file:
 checkBox	GUI.java	/^    private JCheckBox checkBox;$/;"	f	class:GUI	file:
 currentChar	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
-displayFinalScreen	GUI.java	/^    public void displayFinalScreen() {$/;"	m	class:GUI
 errorCnt	GUI.java	/^    private int currentChar, rowBreak1, rowBreak2, errorCnt, promptNum, $/;"	f	class:GUI	file:
 errorLabel	GUI.java	/^    private JLabel wrongLabel, errorLabel, accuracyLabel;$/;"	f	class:GUI	file:
+finalAccuracy	GUI.java	/^    public void finalAccuracy() {$/;"	m	class:GUI
 itemStateChanged	GUI.java	/^    public void itemStateChanged(ItemEvent e) {$/;"	m	class:GUI
 keyPressed	GUI.java	/^    public void keyPressed (KeyEvent e) {$/;"	m	class:GUI
 keyReleased	GUI.java	/^    public void keyReleased (KeyEvent e) {$/;"	m	class:GUI

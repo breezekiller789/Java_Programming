@@ -50,20 +50,7 @@ public class GUI extends JFrame implements KeyListener, ItemListener {
             // "banana is also good bro...",
             "I love Java Programming!!!"
         };
-//
-        promptNum = 0;
-        chapter = chapters[promptNum];
-        typedText = "> ";
-        rowBreak1 = 10;     //  這個值是待會要建立鍵盤圖形的時候要用到的index
-        rowBreak2 = 21;     //  這也是一樣，只是不一樣的行。
-        errorCnt = 0;      //  代表打錯了幾個字，待會要算出打字準確率要用的。
-        currentChar = 0;    //  這是待會要打入文章的時候的索引值，是用來代表現在打到哪一個字元。
-        numKeysTyped = 0;   //  到現在總共打了幾個字元。
-        chapter1 = new JRadioButton("文章 1");
-        chapter2 = new JRadioButton("文章 2");
-        chapter3 = new JRadioButton("文章 3");
-        chapter4 = new JRadioButton("文章 4");
-        chapter5 = new JRadioButton("文章 5");
+
         buttongroup = new ButtonGroup();
         checkBox = new JCheckBox("自動換下一篇文章");
         chapterBox = new JTextArea(chapter);
@@ -72,6 +59,19 @@ public class GUI extends JFrame implements KeyListener, ItemListener {
         wrongLabel = new JLabel("輸入錯誤!");
         errorLabel = new JLabel("錯誤: 0");
         accuracyLabel = new JLabel("Accuracy: ");
+        chapter1 = new JRadioButton("文章 1");
+        chapter2 = new JRadioButton("文章 2");
+        chapter3 = new JRadioButton("文章 3");
+        chapter4 = new JRadioButton("文章 4");
+        chapter5 = new JRadioButton("文章 5");
+        promptNum = 0;
+        chapter = chapters[promptNum];
+        typedText = "> ";
+        rowBreak1 = 10;     //  這個值是待會要建立鍵盤圖形的時候要用到的index
+        rowBreak2 = 21;     //  這也是一樣，只是不一樣的行。
+        errorCnt = 0;      //  代表打錯了幾個字，待會要算出打字準確率要用的。
+        currentChar = 0;    //  這是待會要打入文章的時候的索引值，是用來代表現在打到哪一個字元。
+        numKeysTyped = 0;   //  到現在總共打了幾個字元。
 
         //  設置放文章要用的空間大小，位置。
         chapterBox.setSize(400, 100);
@@ -103,27 +103,32 @@ public class GUI extends JFrame implements KeyListener, ItemListener {
         accuracyLabel.setLocation(200, 150);
         accuracyLabel.setVisible(false);
 
+        //  設置chapter1的按鈕
         chapter1.setSize(100, 50);
         chapter1.setLocation(50, 100);
         chapter1.addItemListener(this);
         chapter1.setSelected(true);
         chapter1.setFocusable(false);
 
+        //  設置chapter2的按鈕
         chapter2.setSize(100, 50);
         chapter2.setLocation(50, 150);
         chapter2.addItemListener(this);
         chapter2.setFocusable(false);
 
+        //  設置chapter3的按鈕
         chapter3.setSize(100, 50);
         chapter3.setLocation(50, 200);
         chapter3.addItemListener(this);
         chapter3.setFocusable(false);
 
+        //  設置chapter4的按鈕
         chapter4.setSize(100, 50);
         chapter4.setLocation(50, 250);
         chapter4.addItemListener(this);
         chapter4.setFocusable(false);
 
+        //  設置chapter5的按鈕
         chapter5.setSize(100, 50);
         chapter5.setLocation(50, 300);
         chapter5.addItemListener(this);
@@ -243,14 +248,14 @@ public class GUI extends JFrame implements KeyListener, ItemListener {
             }
             else {
                 //  如果三張都打完了，就顯示FinalScreen，主要是顯示打字準確率。
-                displayFinalScreen();
+                finalAccuracy();
             }
         }
     }
 
     //  如果五篇文章都打完了，這邊就會計算打字的準確率，將所有打錯的字元個數除
     //  上總共的字元個數，就是失誤率，再用100去扣掉，就是準確率了。
-    public void displayFinalScreen() {
+    public void finalAccuracy() {
         //  先把文章視窗關掉。
         chapterBox.setVisible(false);
         //  顯示準確率視窗。
